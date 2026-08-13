@@ -6,7 +6,7 @@
         inset -1px -1px 6px hsla(0, 0%, 0%, .1),
         0 4px 12px hsla(0, 0%, 0%, .15),
         0 0 20px hsla(0, 0%, 100%, .05);
-    --background-image: url('https://i.imgur.com/hpHXrym.png');
+    --background-image: none;
     --text-muted: color white !important;
     --text-secondary: color white !important;
     --custom-app-panels-height: 57.59375px;
@@ -174,7 +174,7 @@
 }
 
 body {
-    background: var(--background-image) center/cover no-repeat !important;
+    background: transparent !important;
 }
 
 .bg__960e4 {
